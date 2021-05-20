@@ -1,18 +1,19 @@
-# Nome do projeto
-
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+# Easy-Way
+No  intuito  de  ajudar  os  pequenos  comérciose  seus  clientes,  criaremos  uma plataforma  digital  auto  intuitiva  para facilitar  o  usodos clientese  auxiliar os empreendedores na gestão dopróprio negócio. Dessa maneira eles terão ferramentas que ajudarão no gerenciamento da loja como por exemplo: acesso aos relatórios dos produtos mais vendidos e quais e os que estão presos em estoque.
 
 ## Alunos integrantes da equipe
-
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+Caio Reis de Abreu
+Francisley Domingos Magalhães
+Júlia Evelyn de Oliveira Silva
+Lara Cordeiro Nogueira
+Lucas Paixão Soares Ribeiro
+Matheus Brasil Aguiar
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+Rommel Vieira Carneiro
+Will Ricardo dos Santos Machado
+Roberto Felipe Dias Ferreira da Rocha
 
 ## Instruções de utilização
 
