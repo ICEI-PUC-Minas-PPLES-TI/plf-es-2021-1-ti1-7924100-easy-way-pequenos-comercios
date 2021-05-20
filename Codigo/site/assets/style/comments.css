@@ -1,0 +1,341 @@
+@media all {
+    *,*::before,*::after {
+        box-sizing: border-box;
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+    h2,h3 {
+        margin-top: 0;
+    }
+
+    img {
+        vertical-align: middle;
+    }
+
+    a {
+        touch-action: manipulation;
+    }
+
+    .heading--1 {
+        -webkit-font-kerning: normal;
+        font-kerning: normal;
+        font-variant-ligatures: common-ligatures contextual discretionary-ligatures;
+        font-feature-settings: 'kern', 'liga', 'clig', 'calt', 'dlig';
+        display: block;
+        margin-bottom: 0.7142857143em;
+        color: #212326;
+        font-size: 1.75em;
+        line-height: 1.2142857143;
+        font-weight: 800;
+        font-family: ShopifySans, Helvetica, Arial, sans-serif;
+        letter-spacing: -0.0207142857em;
+    }
+
+    @media screen and (min-width: 67.5em) {
+        .heading--1 {
+            font-size:2.5em;
+            margin-bottom: 0.3em;
+        }
+    }
+
+    h2 {
+        -webkit-font-kerning: normal;
+        font-kerning: normal;
+        font-variant-ligatures: common-ligatures contextual discretionary-ligatures;
+        font-feature-settings: 'kern', 'liga', 'clig', 'calt', 'dlig';
+        display: block;
+        margin-bottom: 0.8333333333em;
+        color: #212326;
+        font-size: 1.5em;
+        line-height: 1.3333333333;
+        font-weight: 400;
+        font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    }
+
+    @media screen and (min-width: 67.5em) {
+        h2 {
+            font-size:1.875em;
+            margin-bottom: 0.6em;
+        }
+    }
+
+    h3 {
+        display: block;
+        font-size: 1.25em;
+        margin-bottom: 0.9em;
+        color: #212326;
+        line-height: 1.33333;
+        font-weight: 400;
+        font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    }
+
+    @media screen and (min-width: 67.5em) {
+        h3 {
+            font-size:1.5em;
+            margin-bottom: 0.8333333333em;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        cursor: pointer;
+        color: #008060;
+    }
+
+    .grid {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .grid::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    @media screen and (min-width: 100em) {
+        .grid {
+            padding-left:80px;
+            padding-right: 80px;
+        }
+    }
+
+    .grid--equal-height::after {
+        content: none;
+    }
+
+    .grid--equal-height {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .grid__item {
+        display: block;
+        position: relative;
+        width: 100%;
+        float: left;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    @media screen and (min-width: 67.5em) {
+        .grid__item {
+            padding-left:18px;
+            padding-right: 18px;
+        }
+    }
+
+    @media screen and (min-width: 46.875em) {
+        .grid__item--tablet-up-third {
+            width:33.3333333333%;
+        }
+    }
+
+    .link {
+        color: inherit;
+        text-decoration: underline;
+        -webkit-text-decoration-line: underline;
+        text-decoration-line: underline;
+        -webkit-text-decoration-style: solid;
+        text-decoration-style: solid;
+        -webkit-text-decoration-color: currentColor;
+        text-decoration-color: currentColor;
+        -webkit-text-decoration-skip: ink;
+        text-decoration-skip-ink: auto;
+    }
+
+    .link--secondary {
+        color: #008060;
+        padding-right: 1.2em;
+        text-decoration: none;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+
+    .link__arrow {
+        position: absolute;
+        margin-top: 0.23em;
+    }
+
+    .link__arrow-inner {
+        fill: currentColor;
+        transform: translateX(0);
+        transition: transform 300ms cubic-bezier(0.4, 0.22, 0.28, 1);
+    }
+
+    .link__arrow-inner.icon {
+        width: 1.2em;
+        height: 1.2em;
+    }
+
+    .icon {
+        display: inline-block;
+        width: 0.8em;
+        height: 1em;
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    img[data-srcset] {
+        opacity: 0;
+        transition: opacity 150ms linear;
+    }
+
+    img.lazyloaded[data-srcset] {
+        opacity: 1;
+    }
+
+    .section {
+        padding: 4em 0;
+    }
+
+    @media screen and (min-width: 46.875em) {
+        .section {
+            padding-top:6em;
+            padding-bottom: 6em;
+        }
+    }
+
+    .section--tight {
+        padding: 2em 0;
+    }
+
+    @media screen and (min-width: 46.875em) {
+        .section--tight {
+            padding-top:3em;
+            padding-bottom: 3em;
+        }
+    }
+
+    .gutter-bottom--reset {
+        margin-bottom: 0!important;
+    }
+}
+
+@media screen {
+    .case-study-container {
+        text-align: center;
+    }
+
+    .case-study-container-heading {
+        margin-bottom: 0;
+    }
+
+    @media screen and (min-width: 67.5em) {
+        .case-study-container-heading {
+            margin-top:5.5%;
+        }
+    }
+
+    .case-study-container-subheading {
+        font-size: 1.5em;
+        margin-top: 1%;
+        margin-bottom: 5%;
+        color: #000000;
+    }
+
+    .case-study-card {
+        height: 100%;
+        background: #ffffff;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        border-radius: 4px;
+        text-align: left;
+        position: relative;
+        overflow: hidden;
+    }
+
+    @media screen and (min-width: 67.5em) {
+        .case-study-heading {
+            font-size:1.5em;
+            line-height: 32px;
+            font-weight: 700;
+            color: #000000;
+            margin-bottom: 1%;
+        }
+    }
+
+    .case-study-card__image-container,.case-study-card__content-container {
+        top: 0;
+        left: 0;
+    }
+
+    .case-study-card__image-container {
+        display: block;
+        width: 100%;
+    }
+
+    .case-study-card__image-container img {
+        min-width: 100%;
+        height: auto;
+        vertical-align: top;
+    }
+
+    .case-study-card-link {
+        font-size: 1.25em;
+    }
+
+    .case-study-card__content-container {
+        width: 100%;
+        padding: 9%;
+    }
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+    font-family: "ShopifySans";
+    src: url("https://cdn.shopify.com/static/fonts/ShopifySans--light.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "ShopifySans";
+    src: url("https://cdn.shopify.com/static/fonts/ShopifySans--regular.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "ShopifySans";
+    src: url("https://cdn.shopify.com/static/fonts/ShopifySans--medium.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "ShopifySans";
+    src: url("https://cdn.shopify.com/static/fonts/ShopifySans--bold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "ShopifySans";
+    src: url("https://cdn.shopify.com/static/fonts/ShopifySans--extrabold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "ShopifySans";
+    src: url("https://cdn.shopify.com/static/fonts/ShopifySans--black.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+}

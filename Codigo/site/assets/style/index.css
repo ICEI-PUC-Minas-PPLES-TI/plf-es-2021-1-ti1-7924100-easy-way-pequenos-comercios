@@ -1,0 +1,38 @@
+.navbar-brand {
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    color: #615858 !important;
+    padding-top: 17px;
+    font-family: Roboto;
+    font-size: 30px;
+	margin-right: 10px;
+}
+
+nav > .container-fluid {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 32px;
+	padding-right: 32px;
+}
+
+ul.navbar-right > li:first-child {
+	background: #FFE3D7;
+	border-radius: 70px;
+}
+
+ul.navbar-right > li:first-child > a {
+	font-family: Roboto;
+    font-size: 15px;
+}
+
+div[index].jumbotron {
+    text-align: center;
+}
+
+section.section--tight svg:first-of-type {
+    width: 45px;
+    height: 45px;
+}
+
+section.section--tight .grid {
+    margin-top: 45px;
+}

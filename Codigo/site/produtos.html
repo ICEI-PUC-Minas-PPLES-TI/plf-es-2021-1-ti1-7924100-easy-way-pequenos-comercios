@@ -1,0 +1,1281 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Special meta-tag for description, author, and icon -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="icon.webp">
+    <meta name="csrf-token" content="fk-clientside">
+    <meta name="app-url" content="https://localhost/">
+    <meta name="file-base-url" content="https://localhost">
+    <title>EASY-WAY - Inicio</title>
+
+    <!-- Bootstrap framework minified CSS & Javascript -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+    <!-- Owl carousel minified CSS & Javascript -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Custom style assets and fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="assets/style/index.css">
+    <link rel="stylesheet" href="assets/style/products.css">
+    <link rel="stylesheet" href="assets/style/theme.css">
+    <link rel="stylesheet" href="assets/style/common.css">
+    <link rel="stylesheet" href="assets/style/footer.css">
+
+    <!-- Bootstrap select minified CSS & Javascript -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+
+    <!-- SCRIPTS -->
+    <script>
+        var AIZ = AIZ || {};
+    </script>
+    <script src="assets/js/vendors.js"></script>
+</head>
+
+<body>
+    <div id="inicio" class="container">
+        <!-- Static navbar -->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">EASY-WAY</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="hidden-sm">
+                            <a href="index.html">INICIO</a>
+                        </li>
+                        <li class="active">
+                            <a href="#inicio">PRODUTOS</a>
+                        </li>
+                        <li>
+                            <a href="index.html#registrar">REGISTRE-SE</a>
+                        </li>
+                        <li>
+                            <a href="index.html#parceiros">PARCEIROS</a>
+                        </li>
+                        <li>
+                            <a href="index.html#beneficios">BENEFICIOS</a>
+                        </li>
+                        <li>
+                            <a href="index.html#sobre">SOBRE</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right hidden-sm">
+                        <li>
+                            <a href="../navbar-fixed-top/">Area do Vendedor</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+            <!--/.container-fluid -->
+        </nav>
+
+        <section class="mb-4 pt-3">
+            <div class="container sm-px-0">
+                <form class="" id="search-form" action="" method="GET">
+                    <div class="row">
+                        <div class="col-xl-3">
+                            <div class="aiz-filter-sidebar collapse-sidebar-wrap sidebar-xl sidebar-right z-1035">
+                                <div class="overlay overlay-fixed dark c-pointer" data-toggle="class-toggle"
+                                    data-target=".aiz-filter-sidebar" data-same=".filter-sidebar-thumb"></div>
+                                <div class="collapse-sidebar c-scrollbar-light text-left">
+                                    <div
+                                        class="d-flex d-xl-none justify-content-between align-items-center pl-3 border-bottom">
+                                        <h3 class="h6 mb-0 fw-600">Filters</h3>
+                                        <button type="button" class="btn btn-sm p-2 filter-sidebar-thumb"
+                                            data-toggle="class-toggle" data-target=".aiz-filter-sidebar">
+                                            <i class="las la-times la-2x"></i>
+                                        </button>
+                                    </div>
+                                    <div class="bg-white shadow-sm rounded mb-3">
+                                        <div class="fs-15 fw-600 p-3 border-bottom">
+                                            Categorias
+                                        </div>
+                                        <div class="p-3">
+                                            <ul class="list-unstyled">
+                                                <li class="mb-2">
+                                                    <a class="text-reset fs-14 fw-600">
+                                                        <i class="las la-angle-left"></i>
+                                                        Todas categorias
+                                                    </a>
+                                                </li>
+                                                <li class="mb-2">
+                                                    <a class="text-reset fs-14 fw-600">
+                                                        <i class="las la-angle-left"></i>
+                                                        Moda Feminina
+                                                    </a>
+                                                </li>
+                                                <li class="ml-4 mb-2">
+                                                    <a class="text-reset fs-14">Roupas Quentes</a>
+                                                </li>
+                                                <li class="ml-4 mb-2">
+                                                    <a class="text-reset fs-14">Eventos</a>
+                                                </li>
+                                                <li class="ml-4 mb-2">
+                                                    <a class="text-reset fs-14">Intimo</a>
+                                                </li>
+                                                <li class="ml-4 mb-2">
+                                                    <a class="text-reset fs-14">Acessorios</a>
+                                                </li>
+                                                <li class="ml-4 mb-2">
+                                                    <a class="text-reset fs-14">Relogios</a>
+                                                </li>
+                                                <li class="ml-4 mb-2">
+                                                    <a class="text-reset fs-14">Roupas infantis</a>
+                                                </li>
+                                                <li class="ml-4 mb-2">
+                                                    <a class="text-reset fs-14">Vestidos</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="bg-white shadow-sm rounded mb-3">
+                                        <div class="fs-15 fw-600 p-3 border-bottom">
+                                            Preço em:
+                                        </div>
+                                        <div class="p-3">
+                                            <div class="aiz-range-slider">
+                                                <div id="input-slider-range" data-range-value-min=" 5 "
+                                                    data-range-value-max=" 25000 "></div>
+                                                <div class="row mt-2">
+                                                    <div class="col-6">
+                                                        <span
+                                                            class="range-slider-value value-low fs-14 fw-600 opacity-70"
+                                                            data-range-value-low="25"
+                                                            id="input-slider-range-value-low"></span>
+                                                    </div>
+                                                    <div class="col-6 text-right">
+                                                        <span
+                                                            class="range-slider-value value-high fs-14 fw-600 opacity-70"
+                                                            data-range-value-high="150"
+                                                            id="input-slider-range-value-high"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-white shadow-sm rounded mb-3">
+                                        <div class="fs-15 fw-600 p-3 border-bottom">
+                                            Filtrar por cor
+                                        </div>
+                                        <div class="p-3">
+                                            <div class="aiz-radio-inline">
+                                                <label class="aiz-megabox pl-0 mr-2" data-toggle="tooltip"
+                                                    data-title="Aqua">
+                                                    <input type="radio" name="color" value="#00FFFF"
+                                                        onchange="filter()">
+                                                    <span
+                                                        class="aiz-megabox-elem rounded d-flex align-items-center justify-content-center p-1 mb-2">
+                                                        <span class="size-30px d-inline-block rounded"
+                                                            style="background: #00FFFF;"></span>
+                                                    </span>
+                                                </label>
+                                                <label class="aiz-megabox pl-0 mr-2" data-toggle="tooltip"
+                                                    data-title="Black">
+                                                    <input type="radio" name="color" value="#000000"
+                                                        onchange="filter()">
+                                                    <span
+                                                        class="aiz-megabox-elem rounded d-flex align-items-center justify-content-center p-1 mb-2">
+                                                        <span class="size-30px d-inline-block rounded"
+                                                            style="background: #000000;"></span>
+                                                    </span>
+                                                </label>
+                                                <label class="aiz-megabox pl-0 mr-2" data-toggle="tooltip"
+                                                    data-title="Pink">
+                                                    <input type="radio" name="color" value="#FFC0CB"
+                                                        onchange="filter()">
+                                                    <span
+                                                        class="aiz-megabox-elem rounded d-flex align-items-center justify-content-center p-1 mb-2">
+                                                        <span class="size-30px d-inline-block rounded"
+                                                            style="background: #FFC0CB;"></span>
+                                                    </span>
+                                                </label>
+                                                <label class="aiz-megabox pl-0 mr-2" data-toggle="tooltip"
+                                                    data-title="Blue">
+                                                    <input type="radio" name="color" value="#0000FF"
+                                                        onchange="filter()">
+                                                    <span
+                                                        class="aiz-megabox-elem rounded d-flex align-items-center justify-content-center p-1 mb-2">
+                                                        <span class="size-30px d-inline-block rounded"
+                                                            style="background: #0000FF;"></span>
+                                                    </span>
+                                                </label>
+                                                <label class="aiz-megabox pl-0 mr-2" data-toggle="tooltip"
+                                                    data-title="DarkCyan">
+                                                    <input type="radio" name="color" value="#008B8B"
+                                                        onchange="filter()">
+                                                    <span
+                                                        class="aiz-megabox-elem rounded d-flex align-items-center justify-content-center p-1 mb-2">
+                                                        <span class="size-30px d-inline-block rounded"
+                                                            style="background: #008B8B;"></span>
+                                                    </span>
+                                                </label>
+                                                <label class="aiz-megabox pl-0 mr-2" data-toggle="tooltip"
+                                                    data-title="DarkGray">
+                                                    <input type="radio" name="color" value="#A9A9A9"
+                                                        onchange="filter()">
+                                                    <span
+                                                        class="aiz-megabox-elem rounded d-flex align-items-center justify-content-center p-1 mb-2">
+                                                        <span class="size-30px d-inline-block rounded"
+                                                            style="background: #A9A9A9;"></span>
+                                                    </span>
+                                                </label>
+                                                <label class="aiz-megabox pl-0 mr-2" data-toggle="tooltip"
+                                                    data-title="DeepPink">
+                                                    <input type="radio" name="color" value="#FF1493"
+                                                        onchange="filter()">
+                                                    <span
+                                                        class="aiz-megabox-elem rounded d-flex align-items-center justify-content-center p-1 mb-2">
+                                                        <span class="size-30px d-inline-block rounded"
+                                                            style="background: #FF1493;"></span>
+                                                    </span>
+                                                </label>
+                                                <label class="aiz-megabox pl-0 mr-2" data-toggle="tooltip"
+                                                    data-title="AliceBlue">
+                                                    <input type="radio" name="color" value="#F0F8FF"
+                                                        onchange="filter()">
+                                                    <span
+                                                        class="aiz-megabox-elem rounded d-flex align-items-center justify-content-center p-1 mb-2">
+                                                        <span class="size-30px d-inline-block rounded"
+                                                            style="background: #F0F8FF;"></span>
+                                                    </span>
+                                                </label>
+                                                <label class="aiz-megabox pl-0 mr-2" data-toggle="tooltip"
+                                                    data-title="Amethyst">
+                                                    <input type="radio" name="color" value="#9966CC"
+                                                        onchange="filter()">
+                                                    <span
+                                                        class="aiz-megabox-elem rounded d-flex align-items-center justify-content-center p-1 mb-2">
+                                                        <span class="size-30px d-inline-block rounded"
+                                                            style="background: #9966CC;"></span>
+                                                    </span>
+                                                </label>
+                                                <label class="aiz-megabox pl-0 mr-2" data-toggle="tooltip"
+                                                    data-title="AntiqueWhite">
+                                                    <input type="radio" name="color" value="#FAEBD7"
+                                                        onchange="filter()">
+                                                    <span
+                                                        class="aiz-megabox-elem rounded d-flex align-items-center justify-content-center p-1 mb-2">
+                                                        <span class="size-30px d-inline-block rounded"
+                                                            style="background: #FAEBD7;"></span>
+                                                    </span>
+                                                </label>
+                                                <label class="aiz-megabox pl-0 mr-2" data-toggle="tooltip"
+                                                    data-title="LightPink">
+                                                    <input type="radio" name="color" value="#FFB6C1"
+                                                        onchange="filter()">
+                                                    <span
+                                                        class="aiz-megabox-elem rounded d-flex align-items-center justify-content-center p-1 mb-2">
+                                                        <span class="size-30px d-inline-block rounded"
+                                                            style="background: #FFB6C1;"></span>
+                                                    </span>
+                                                </label>
+                                                <label class="aiz-megabox pl-0 mr-2" data-toggle="tooltip"
+                                                    data-title="Yellow">
+                                                    <input type="radio" name="color" value="#FFFF00"
+                                                        onchange="filter()">
+                                                    <span
+                                                        class="aiz-megabox-elem rounded d-flex align-items-center justify-content-center p-1 mb-2">
+                                                        <span class="size-30px d-inline-block rounded"
+                                                            style="background: #FFFF00;"></span>
+                                                    </span>
+                                                </label>
+                                                <label class="aiz-megabox pl-0 mr-2" data-toggle="tooltip"
+                                                    data-title="Brown">
+                                                    <input type="radio" name="color" value="#A52A2A"
+                                                        onchange="filter()">
+                                                    <span
+                                                        class="aiz-megabox-elem rounded d-flex align-items-center justify-content-center p-1 mb-2">
+                                                        <span class="size-30px d-inline-block rounded"
+                                                            style="background: #A52A2A;"></span>
+                                                    </span>
+                                                </label>
+                                                <label class="aiz-megabox pl-0 mr-2" data-toggle="tooltip"
+                                                    data-title="CadetBlue">
+                                                    <input type="radio" name="color" value="#5F9EA0"
+                                                        onchange="filter()">
+                                                    <span
+                                                        class="aiz-megabox-elem rounded d-flex align-items-center justify-content-center p-1 mb-2">
+                                                        <span class="size-30px d-inline-block rounded"
+                                                            style="background: #5F9EA0;"></span>
+                                                    </span>
+                                                </label>
+                                                <label class="aiz-megabox pl-0 mr-2" data-toggle="tooltip"
+                                                    data-title="Chartreuse">
+                                                    <input type="radio" name="color" value="#7FFF00"
+                                                        onchange="filter()">
+                                                    <span
+                                                        class="aiz-megabox-elem rounded d-flex align-items-center justify-content-center p-1 mb-2">
+                                                        <span class="size-30px d-inline-block rounded"
+                                                            style="background: #7FFF00;"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-white shadow-sm rounded mb-3">
+                                        <div class="fs-15 fw-600 p-3 border-bottom">
+                                            Filtrar por tamanho
+                                        </div>
+                                        <div class="p-3">
+                                            <div class="aiz-checkbox-list">
+                                                <label class="aiz-checkbox">
+                                                    <input type="checkbox" name="attribute_1[]" value="S"
+                                                        onchange="filter()">
+                                                    <span class="aiz-square-check"></span>
+                                                    <span>S</span>
+                                                </label>
+                                                <label class="aiz-checkbox">
+                                                    <input type="checkbox" name="attribute_1[]" value="M"
+                                                        onchange="filter()">
+                                                    <span class="aiz-square-check"></span>
+                                                    <span>M</span>
+                                                </label>
+                                                <label class="aiz-checkbox">
+                                                    <input type="checkbox" name="attribute_1[]" value="L"
+                                                        onchange="filter()">
+                                                    <span class="aiz-square-check"></span>
+                                                    <span>L</span>
+                                                </label>
+                                                <label class="aiz-checkbox">
+                                                    <input type="checkbox" name="attribute_1[]" value="XL"
+                                                        onchange="filter()">
+                                                    <span class="aiz-square-check"></span>
+                                                    <span>XL</span>
+                                                </label>
+                                                <label class="aiz-checkbox">
+                                                    <input type="checkbox" name="attribute_1[]" value="XXL"
+                                                        onchange="filter()">
+                                                    <span class="aiz-square-check"></span>
+                                                    <span>XXL</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-9">
+                            <ul style="float: none;" class="breadcrumb bg-transparent p-0">
+                                <li class="breadcrumb-item opacity-50">
+                                    <a class="text-reset">Inicio</a>
+                                </li>
+                                <li class="breadcrumb-item opacity-50">
+                                    <a class="text-reset">Todas categorias</a>
+                                </li>
+                                <li class="text-dark fw-600 breadcrumb-item">
+                                    <a class="text-reset">"Roupas da moda feminina"</a>
+                                </li>
+                            </ul>
+                            <div class="text-left">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <h1 class="h6 fw-600 text-body">
+                                            Roupas da moda feminina
+                                        </h1>
+                                    </div>
+                                    <div class="form-group ml-auto mr-0 w-200px d-none d-xl-block">
+                                        <label class="mb-0 opacity-50">Marcas</label>
+                                        <select class="form-control form-control-sm aiz-selectpicker"
+                                            data-live-search="true" name="brand" onchange="filter()">
+                                            <option value="">Todas marcas</option>
+                                            <option value="ford">Ford</option>
+                                            <option value="chevrolet">Chevrolet</option>
+                                            <option value="audi">Audi</option>
+                                            <option value="hyundai">Hyundai</option>
+                                            <option value="nissan">Nissan</option>
+                                            <option value="bmw">BMW</option>
+                                            <option value="mercedes-benz">Mercedes-Benz</option>
+                                            <option value="toyota">Toyota</option>
+                                            <option value="suzuki">Suzuki</option>
+                                            <option value="mitsubishi">Mitsubishi</option>
+                                            <option value="honda">Honda</option>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="yamaha">Yamaha</option>
+                                            <option value="brighton">Brighton</option>
+                                            <option value="tanishq">Tanishq</option>
+                                            <option value="victoria&#039;s-secret">Victoria&#039;s Secret</option>
+                                            <option value="dior">Dior</option>
+                                            <option value="bucketfeet">Bucketfeet</option>
+                                            <option value="jlo">JLO</option>
+                                            <option value="en&#039;or">En&#039;or</option>
+                                            <option value="rolex">Rolex</option>
+                                            <option value="polo">Polo</option>
+                                            <option value="aigner">Aigner</option>
+                                            <option value="omega">Omega</option>
+                                            <option value="axe">Axe</option>
+                                            <option value="addidas">Addidas</option>
+                                            <option value="nike">Nike</option>
+                                            <option value="puma">Puma</option>
+                                            <option value="reebok">Reebok</option>
+                                            <option value="samsung">Samsung</option>
+                                            <option value="apple">Apple</option>
+                                            <option value="dell">Dell</option>
+                                            <option value="hp">HP</option>
+                                            <option value="acer">Acer</option>
+                                            <option value="asus">Asus</option>
+                                            <option value="sony">Sony</option>
+                                            <option value="lenovo">Lenovo</option>
+                                            <option value="corsair">Corsair</option>
+                                            <option value="microsoft">Microsoft</option>
+                                            <option value="hitachi">Hitachi</option>
+                                            <option value="lakme">Lakme</option>
+                                            <option value="logitech">Logitech</option>
+                                            <option value="calvin-klein">Calvin Klein</option>
+                                            <option value="little-live-pets">Little live pets</option>
+                                            <option value="baby-tv">Baby TV</option>
+                                            <option value="kickers">Kickers</option>
+                                            <option value="lucky-brand">lucky Brand</option>
+                                            <option value="nihal">Nihal</option>
+                                            <option value="elle">ELLE</option>
+                                            <option value="the-crystal-bride">The Crystal Bride</option>
+                                            <option value="dg">DG</option>
+                                            <option value="hudson">Hudson</option>
+                                            <option value="muratti">Muratti</option>
+                                            <option value="breitling">Breitling</option>
+                                            <option value="burberry">Burberry</option>
+                                            <option value="huwaei">Huwaei</option>
+                                            <option value="htc">HTC</option>
+                                            <option value="nokia">Nokia</option>
+                                            <option value="johnson&#039;s-baby">Johnson&#039;s baby</option>
+                                            <option value="cerelac">Cerelac</option>
+                                            <option value="babies-outfits">Babies Outfits</option>
+                                            <option value="pampers">Pampers</option>
+                                            <option value="toys-pino">Toys Pino</option>
+                                            <option value="belly-baby">Belly Baby</option>
+                                            <option value="baby-care">Baby Care</option>
+                                            <option value="baby-&amp;-me">Baby &amp; me</option>
+                                            <option value="razer">Razer</option>
+                                            <option value="loreal">Loreal</option>
+                                            <option value="dove">Dove</option>
+                                            <option value="nyx">NYX</option>
+                                            <option value="guess">Guess</option>
+                                            <option value="mac">Mac</option>
+                                            <option value="flormar">Flormar</option>
+                                            <option value="sephora">Sephora</option>
+                                            <option value="urban-decay">Urban Decay</option>
+                                            <option value="maybeline">Maybeline</option>
+                                            <option value="lexington">Lexington</option>
+                                            <option value="jade-furniture">Jade furniture</option>
+                                            <option value="apato">Apato</option>
+                                            <option value="brooks">Brooks</option>
+                                            <option value="decor">Decor</option>
+                                            <option value="ifd">IFD</option>
+                                            <option value="interno">Interno</option>
+                                            <option value="hilsdale">Hilsdale</option>
+                                            <option value="nicoletti">Nicoletti</option>
+                                            <option value="rolls-royce-ktmqf">Rolls royce</option>
+                                            <option value="haskins-joules-8ngvr">Joules</option>
+                                            <option value="alosa-yw9no">Alosa</option>
+                                            <option value="denim-zetmd">Denim</option>
+                                            <option value="one-plus-4dxwx">One Plus</option>
+                                            <option value="mercedes-isykv">Mercedes</option>
+                                            <option value="bas-vampire-wfot0">BAS Vampire</option>
+                                            <option value="woodworm-zo2lt">WOODWORM</option>
+                                            <option value="google-jkk1e">Google</option>
+                                            <option value="Xiaomi-aoPWb">Xiaomi</option>
+                                            <option value="Riyal-Enfield-88VZ9">Riyal Enfield</option>
+                                            <option value="Royal-Enfield-fKEir">Royal Enfield</option>
+                                            <option value="Philipps-g4nK3">Philipps</option>
+                                            <option value="LOUIS-VUITTON-1Bq7n">LOUIS-VUITTON</option>
+                                            <option value="Canon-Kf3Jf">Canon</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group w-200px ml-0 ml-xl-3">
+                                        <label class="mb-0 opacity-50">Filtrar por</label>
+                                        <select class="form-control form-control-sm aiz-selectpicker" name="sort_by">
+                                            <option value="newest">Novos</option>
+                                            <option value="oldest">Velhos</option>
+                                            <option value="price-asc">Menor preço</option>
+                                            <option value="price-desc">Maior preço</option>
+                                        </select>
+                                    </div>
+                                    <div class="d-xl-none ml-auto ml-xl-3 mr-0 form-group align-self-end">
+                                        <button type="button" class="btn btn-icon p-0" data-toggle="class-toggle"
+                                            data-target=".aiz-filter-sidebar">
+                                            <i class="la la-filter la-2x"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="hidden" name="min_price" value="">
+                            <input type="hidden" name="max_price" value="">
+                            <div
+                                class="row gutters-5 row-cols-xxl-4 row-cols-xl-3 row-cols-lg-4 row-cols-md-3 row-cols-2">
+                                <div class="col mb-3">
+                                    <div
+                                        class="aiz-card-box h-100 border border-light rounded shadow-sm hov-shadow-md has-transition bg-white">
+                                        <div class="position-relative">
+                                            <a class="d-block">
+                                                <img class="img-fit lazyload mx-auto h-160px h-md-220px h-xl-270px h-xxl-250px"
+                                                    src="assets/img/placeholder.jpg"
+                                                    data-src="assets/img/PPQz2c4lSYQMnOI4KFSA15yesRS3jLP8tevGHMC1.jpg"
+                                                    alt="Women Fit and Flare Dress"
+                                                    onerror="this.onerror=null;this.src='assets/img/placeholder.jpg';">
+                                            </a>
+                                            <div class="absolute-top-right aiz-p-hov-icon">
+                                                <a onclick="addToWishList(122)"
+                                                    data-toggle="tooltip" data-title="Add to wishlist"
+                                                    data-placement="left">
+                                                    <i class="la la-heart-o"></i>
+                                                </a>
+                                                <a onclick="addToCompare(122)"
+                                                    data-toggle="tooltip" data-title="Add to compare"
+                                                    data-placement="left">
+                                                    <i class="las la-sync"></i>
+                                                </a>
+                                                <a onclick="showAddToCartModal(122)"
+                                                    data-toggle="tooltip" data-title="Add to cart"
+                                                    data-placement="left">
+                                                    <i class="las la-shopping-cart"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="p-md-3 p-2 text-left">
+                                            <div class="fs-15">
+                                                <del class="fw-600 opacity-50 mr-1">R$45.00</del>
+                                                <span class="fw-700 text-primary">R$40.50</span>
+                                            </div>
+                                            <div class="rating rating-sm mt-1">
+                                                <i class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i>
+                                            </div>
+                                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                                <a class="d-block text-reset">Women Fit and Flare Dress</a>
+                                            </h3>
+                                            <div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+                                                Pontos:
+                                                <span class="fw-700 float-right">225</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-3">
+                                    <div
+                                        class="aiz-card-box h-100 border border-light rounded shadow-sm hov-shadow-md has-transition bg-white">
+                                        <div class="position-relative">
+                                            <a
+                                                class="d-block">
+                                                <img class="img-fit lazyload mx-auto h-160px h-md-220px h-xl-270px h-xxl-250px"
+                                                    src="assets/img/placeholder.jpg"
+                                                    data-src="assets/img/0lvmqRwtoLgvNpv8mVDWablR9GFiD5hA1CZzr5kd.jpg"
+                                                    alt="Women Fit and Flare Dress"
+                                                    onerror="this.onerror=null;this.src='assets/img/placeholder.jpg';">
+                                            </a>
+                                            <div class="absolute-top-right aiz-p-hov-icon">
+                                                <a onclick="addToWishList(121)"
+                                                    data-toggle="tooltip" data-title="Add to wishlist"
+                                                    data-placement="left">
+                                                    <i class="la la-heart-o"></i>
+                                                </a>
+                                                <a onclick="addToCompare(121)"
+                                                    data-toggle="tooltip" data-title="Add to compare"
+                                                    data-placement="left">
+                                                    <i class="las la-sync"></i>
+                                                </a>
+                                                <a onclick="showAddToCartModal(121)"
+                                                    data-toggle="tooltip" data-title="Add to cart"
+                                                    data-placement="left">
+                                                    <i class="las la-shopping-cart"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="p-md-3 p-2 text-left">
+                                            <div class="fs-15">
+                                                <span class="fw-700 text-primary">R$60.00</span>
+                                            </div>
+                                            <div class="rating rating-sm mt-1">
+                                                <i class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i>
+                                            </div>
+                                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                                <a class="d-block text-reset">Women Fit and Flare Dress</a>
+                                            </h3>
+                                            <div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+                                                Pontos:
+                                                <span class="fw-700 float-right">300</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-3">
+                                    <div
+                                        class="aiz-card-box h-100 border border-light rounded shadow-sm hov-shadow-md has-transition bg-white">
+                                        <div class="position-relative">
+                                            <a class="d-block">
+                                                <img class="img-fit lazyload mx-auto h-160px h-md-220px h-xl-270px h-xxl-250px"
+                                                    src="assets/img/placeholder.jpg"
+                                                    data-src="assets/img/ZI6Xgo7q0Kl522G08tMsa80dmU3LGmXRySDGwh1E.jpg"
+                                                    alt="Calvin Klein Women&#039;s Sleeveless Round Neck Fit and Flare Dress"
+                                                    onerror="this.onerror=null;this.src='assets/img/placeholder.jpg';">
+                                            </a>
+                                            <div class="absolute-top-right aiz-p-hov-icon">
+                                                <a onclick="addToWishList(118)"
+                                                    data-toggle="tooltip" data-title="Add to wishlist"
+                                                    data-placement="left">
+                                                    <i class="la la-heart-o"></i>
+                                                </a>
+                                                <a onclick="addToCompare(118)"
+                                                    data-toggle="tooltip" data-title="Add to compare"
+                                                    data-placement="left">
+                                                    <i class="las la-sync"></i>
+                                                </a>
+                                                <a onclick="showAddToCartModal(118)"
+                                                    data-toggle="tooltip" data-title="Add to cart"
+                                                    data-placement="left">
+                                                    <i class="las la-shopping-cart"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="p-md-3 p-2 text-left">
+                                            <div class="fs-15">
+                                                <span class="fw-700 text-primary">R$60.00</span>
+                                            </div>
+                                            <div class="rating rating-sm mt-1">
+                                                <i class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i>
+                                            </div>
+                                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                                <a class="d-block text-reset">Calvin Klein Women&#039;s Sleeveless
+                                                    Round Neck
+                                                    Fit and Flare Dress</a>
+                                            </h3>
+                                            <div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+                                                Pontos:
+                                                <span class="fw-700 float-right">300</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-3">
+                                    <div
+                                        class="aiz-card-box h-100 border border-light rounded shadow-sm hov-shadow-md has-transition bg-white">
+                                        <div class="position-relative">
+                                            <a class="d-block">
+                                                <img class="img-fit lazyload mx-auto h-160px h-md-220px h-xl-270px h-xxl-250px"
+                                                    src="assets/img/placeholder.jpg"
+                                                    data-src="assets/img/p6ylZjAQGr3bPaRbZlPpZm0S0To5nQhS0HECHWXi.jpg"
+                                                    alt="Dress the Population Women&#039;s Catalina Solid Sleeveless Fit &amp; Flare Midi Dress"
+                                                    onerror="this.onerror=null;this.src='assets/img/placeholder.jpg';">
+                                            </a>
+                                            <div class="absolute-top-right aiz-p-hov-icon">
+                                                <a onclick="addToWishList(115)"
+                                                    data-toggle="tooltip" data-title="Add to wishlist"
+                                                    data-placement="left">
+                                                    <i class="la la-heart-o"></i>
+                                                </a>
+                                                <a onclick="addToCompare(115)"
+                                                    data-toggle="tooltip" data-title="Add to compare"
+                                                    data-placement="left">
+                                                    <i class="las la-sync"></i>
+                                                </a>
+                                                <a onclick="showAddToCartModal(115)"
+                                                    data-toggle="tooltip" data-title="Add to cart"
+                                                    data-placement="left">
+                                                    <i class="las la-shopping-cart"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="p-md-3 p-2 text-left">
+                                            <div class="fs-15">
+                                                <span class="fw-700 text-primary">R$140.00</span>
+                                            </div>
+                                            <div class="rating rating-sm mt-1">
+                                                <i class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i>
+                                            </div>
+                                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                                <a class="d-block text-reset">Dress the Population Women&#039;s
+                                                    Catalina Solid
+                                                    Sleeveless Fit &amp; Flare Midi Dress</a>
+                                            </h3>
+                                            <div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+                                                Pontos:
+                                                <span class="fw-700 float-right">700</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-3">
+                                    <div
+                                        class="aiz-card-box h-100 border border-light rounded shadow-sm hov-shadow-md has-transition bg-white">
+                                        <div class="position-relative">
+                                            <a class="d-block">
+                                                <img class="img-fit lazyload mx-auto h-160px h-md-220px h-xl-270px h-xxl-250px"
+                                                    src="assets/img/placeholder.jpg"
+                                                    data-src="assets/img/EZZEYM7qsk4LEDqrLu26H0MHxcZsbsWPm3oi3ypj.jpg"
+                                                    alt="Women&#039;s Embellished Tiered Sequin Jacket Dress"
+                                                    onerror="this.onerror=null;this.src='assets/img/placeholder.jpg';">
+                                            </a>
+                                            <div class="absolute-top-right aiz-p-hov-icon">
+                                                <a onclick="addToWishList(114)"
+                                                    data-toggle="tooltip" data-title="Add to wishlist"
+                                                    data-placement="left">
+                                                    <i class="la la-heart-o"></i>
+                                                </a>
+                                                <a onclick="addToCompare(114)"
+                                                    data-toggle="tooltip" data-title="Add to compare"
+                                                    data-placement="left">
+                                                    <i class="las la-sync"></i>
+                                                </a>
+                                                <a onclick="showAddToCartModal(114)"
+                                                    data-toggle="tooltip" data-title="Add to cart"
+                                                    data-placement="left">
+                                                    <i class="las la-shopping-cart"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="p-md-3 p-2 text-left">
+                                            <div class="fs-15">
+                                                <span class="fw-700 text-primary">R$150.00</span>
+                                            </div>
+                                            <div class="rating rating-sm mt-1">
+                                                <i class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i>
+                                            </div>
+                                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                                <a class="d-block text-reset">Women&#039;s Embellished Tiered Sequin
+                                                    Jacket
+                                                    Dress</a>
+                                            </h3>
+                                            <div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+                                                Pontos:
+                                                <span class="fw-700 float-right">750</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-3">
+                                    <div
+                                        class="aiz-card-box h-100 border border-light rounded shadow-sm hov-shadow-md has-transition bg-white">
+                                        <div class="position-relative">
+                                            <a class="d-block">
+                                                <img class="img-fit lazyload mx-auto h-160px h-md-220px h-xl-270px h-xxl-250px"
+                                                    src="assets/img/placeholder.jpg"
+                                                    data-src="assets/img/aXNHGnzxeSx7Xz4H78EnAqTXc9kTEJu78tlj1dld.jpg"
+                                                    alt="Women&#039;s Full Slips Cami Long Spaghetti Strap Under Dress"
+                                                    onerror="this.onerror=null;this.src='assets/img/placeholder.jpg';">
+                                            </a>
+                                            <div class="absolute-top-right aiz-p-hov-icon">
+                                                <a onclick="addToWishList(113)"
+                                                    data-toggle="tooltip" data-title="Add to wishlist"
+                                                    data-placement="left">
+                                                    <i class="la la-heart-o"></i>
+                                                </a>
+                                                <a onclick="addToCompare(113)"
+                                                    data-toggle="tooltip" data-title="Add to compare"
+                                                    data-placement="left">
+                                                    <i class="las la-sync"></i>
+                                                </a>
+                                                <a onclick="showAddToCartModal(113)"
+                                                    data-toggle="tooltip" data-title="Add to cart"
+                                                    data-placement="left">
+                                                    <i class="las la-shopping-cart"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="p-md-3 p-2 text-left">
+                                            <div class="fs-15">
+                                                <del class="fw-600 opacity-50 mr-1">R$140.00</del>
+                                                <span class="fw-700 text-primary">R$126.00</span>
+                                            </div>
+                                            <div class="rating rating-sm mt-1">
+                                                <i class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i>
+                                            </div>
+                                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                                <a class="d-block text-reset">Women&#039;s Full Slips Cami Long
+                                                    Spaghetti Strap
+                                                    Under Dress</a>
+                                            </h3>
+                                            <div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+                                                Pontos:
+                                                <span class="fw-700 float-right">700</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-3">
+                                    <div
+                                        class="aiz-card-box h-100 border border-light rounded shadow-sm hov-shadow-md has-transition bg-white">
+                                        <div class="position-relative">
+                                            <a class="d-block">
+                                                <img class="img-fit lazyload mx-auto h-160px h-md-220px h-xl-270px h-xxl-250px"
+                                                    src="assets/img/placeholder.jpg"
+                                                    data-src="assets/img/QMjDE3E6OfwmjpyImuMxyI1SPJfU5YhF52xpqGAH.jpg"
+                                                    alt="Bearsland Maternity Women&#039;s 3 Pieces Soft Nursing Pajamas Set Postpartum Sleepwear for Breastfeeding"
+                                                    onerror="this.onerror=null;this.src='assets/img/placeholder.jpg';">
+                                            </a>
+                                            <div class="absolute-top-right aiz-p-hov-icon">
+                                                <a onclick="addToWishList(112)"
+                                                    data-toggle="tooltip" data-title="Add to wishlist"
+                                                    data-placement="left">
+                                                    <i class="la la-heart-o"></i>
+                                                </a>
+                                                <a onclick="addToCompare(112)"
+                                                    data-toggle="tooltip" data-title="Add to compare"
+                                                    data-placement="left">
+                                                    <i class="las la-sync"></i>
+                                                </a>
+                                                <a onclick="showAddToCartModal(112)"
+                                                    data-toggle="tooltip" data-title="Add to cart"
+                                                    data-placement="left">
+                                                    <i class="las la-shopping-cart"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="p-md-3 p-2 text-left">
+                                            <div class="fs-15">
+                                                <del class="fw-600 opacity-50 mr-1">R$120.00</del>
+                                                <span class="fw-700 text-primary">R$108.00</span>
+                                            </div>
+                                            <div class="rating rating-sm mt-1">
+                                                <i class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i>
+                                            </div>
+                                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                                <a class="d-block text-reset">Bearsland Maternity Women&#039;s 3 Pieces
+                                                    Soft
+                                                    Nursing Pajamas Set Postpartum Sleepwear for Breastfeeding</a>
+                                            </h3>
+                                            <div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+                                                Pontos:
+                                                <span class="fw-700 float-right">600</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-3">
+                                    <div
+                                        class="aiz-card-box h-100 border border-light rounded shadow-sm hov-shadow-md has-transition bg-white">
+                                        <div class="position-relative">
+                                            <a class="d-block">
+                                                <img class="img-fit lazyload mx-auto h-160px h-md-220px h-xl-270px h-xxl-250px"
+                                                    src="assets/img/placeholder.jpg"
+                                                    data-src="assets/img/NxDzrdMuZ65LTiApiyrtDSovsJLBvaxpZcvCCcSU.jpg"
+                                                    alt="Motherhood Maternity Women&#039;s Maternity Lace Trim Nursing Nightgown"
+                                                    onerror="this.onerror=null;this.src='assets/img/placeholder.jpg';">
+                                            </a>
+                                            <div class="absolute-top-right aiz-p-hov-icon">
+                                                <a onclick="addToWishList(111)"
+                                                    data-toggle="tooltip" data-title="Add to wishlist"
+                                                    data-placement="left">
+                                                    <i class="la la-heart-o"></i>
+                                                </a>
+                                                <a onclick="addToCompare(111)"
+                                                    data-toggle="tooltip" data-title="Add to compare"
+                                                    data-placement="left">
+                                                    <i class="las la-sync"></i>
+                                                </a>
+                                                <a onclick="showAddToCartModal(111)"
+                                                    data-toggle="tooltip" data-title="Add to cart"
+                                                    data-placement="left">
+                                                    <i class="las la-shopping-cart"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="p-md-3 p-2 text-left">
+                                            <div class="fs-15">
+                                                <del class="fw-600 opacity-50 mr-1">R$100.00</del>
+                                                <span class="fw-700 text-primary">R$90.00</span>
+                                            </div>
+                                            <div class="rating rating-sm mt-1">
+                                                <i class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i>
+                                            </div>
+                                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                                <a class="d-block text-reset">Motherhood Maternity Women&#039;s
+                                                    Maternity Lace
+                                                    Trim Nursing Nightgown</a>
+                                            </h3>
+                                            <div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+                                                Pontos:
+                                                <span class="fw-700 float-right">500</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-3">
+                                    <div
+                                        class="aiz-card-box h-100 border border-light rounded shadow-sm hov-shadow-md has-transition bg-white">
+                                        <div class="position-relative">
+                                            <a class="d-block">
+                                                <img class="img-fit lazyload mx-auto h-160px h-md-220px h-xl-270px h-xxl-250px"
+                                                    src="assets/img/placeholder.jpg"
+                                                    data-src="assets/img/VnuCuGG4PdU1UFInIAmWqUN8Js3OIfDeFm4G1NUF.jpg"
+                                                    alt="Adidas Women&#039;s Alphaskin Tiro Training Jacket"
+                                                    onerror="this.onerror=null;this.src='assets/img/placeholder.jpg';">
+                                            </a>
+                                            <div class="absolute-top-right aiz-p-hov-icon">
+                                                <a onclick="addToWishList(110)"
+                                                    data-toggle="tooltip" data-title="Add to wishlist"
+                                                    data-placement="left">
+                                                    <i class="la la-heart-o"></i>
+                                                </a>
+                                                <a onclick="addToCompare(110)"
+                                                    data-toggle="tooltip" data-title="Add to compare"
+                                                    data-placement="left">
+                                                    <i class="las la-sync"></i>
+                                                </a>
+                                                <a onclick="showAddToCartModal(110)"
+                                                    data-toggle="tooltip" data-title="Add to cart"
+                                                    data-placement="left">
+                                                    <i class="las la-shopping-cart"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="p-md-3 p-2 text-left">
+                                            <div class="fs-15">
+                                                <span class="fw-700 text-primary">R$40.00</span>
+                                            </div>
+                                            <div class="rating rating-sm mt-1">
+                                                <i class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i>
+                                            </div>
+                                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                                <a class="d-block text-reset">Adidas Women&#039;s Alphaskin Tiro
+                                                    Training
+                                                    Jacket</a>
+                                            </h3>
+                                            <div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+                                                Pontos:
+                                                <span class="fw-700 float-right">200</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-3">
+                                    <div
+                                        class="aiz-card-box h-100 border border-light rounded shadow-sm hov-shadow-md has-transition bg-white">
+                                        <div class="position-relative">
+                                            <a class="d-block">
+                                                <img class="img-fit lazyload mx-auto h-160px h-md-220px h-xl-270px h-xxl-250px"
+                                                    src="assets/img/placeholder.jpg"
+                                                    data-src="assets/img/k3mciSuTxJ740I5z9FMdWV8HyGgEmsNhAjsb9p7c.jpg"
+                                                    alt="Adidas Women&#039;s Cropped Slim Polyester Shorts"
+                                                    onerror="this.onerror=null;this.src='assets/img/placeholder.jpg';">
+                                            </a>
+                                            <div class="absolute-top-right aiz-p-hov-icon">
+                                                <a onclick="addToWishList(109)"
+                                                    data-toggle="tooltip" data-title="Add to wishlist"
+                                                    data-placement="left">
+                                                    <i class="la la-heart-o"></i>
+                                                </a>
+                                                <a onclick="addToCompare(109)"
+                                                    data-toggle="tooltip" data-title="Add to compare"
+                                                    data-placement="left">
+                                                    <i class="las la-sync"></i>
+                                                </a>
+                                                <a onclick="showAddToCartModal(109)"
+                                                    data-toggle="tooltip" data-title="Add to cart"
+                                                    data-placement="left">
+                                                    <i class="las la-shopping-cart"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="p-md-3 p-2 text-left">
+                                            <div class="fs-15">
+                                                <span class="fw-700 text-primary">R$25.00</span>
+                                            </div>
+                                            <div class="rating rating-sm mt-1">
+                                                <i class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i>
+                                            </div>
+                                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                                <a class="d-block text-reset">Adidas Women&#039;s Cropped Slim
+                                                    Polyester
+                                                    Shorts</a>
+                                            </h3>
+                                            <div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+                                                Pontos:
+                                                <span class="fw-700 float-right">125</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-3">
+                                    <div
+                                        class="aiz-card-box h-100 border border-light rounded shadow-sm hov-shadow-md has-transition bg-white">
+                                        <div class="position-relative">
+                                            <a class="d-block">
+                                                <img class="img-fit lazyload mx-auto h-160px h-md-220px h-xl-270px h-xxl-250px"
+                                                    src="assets/img/placeholder.jpg"
+                                                    data-src="assets/img/FgsltPQteOUqMi7CnTGgyItrTzXH5EipNqDxEikJ.jpg"
+                                                    alt="Adidas Women&#039;s Sports Tights"
+                                                    onerror="this.onerror=null;this.src='assets/img/placeholder.jpg';">
+                                            </a>
+                                            <div class="absolute-top-right aiz-p-hov-icon">
+                                                <a onclick="addToWishList(108)"
+                                                    data-toggle="tooltip" data-title="Add to wishlist"
+                                                    data-placement="left">
+                                                    <i class="la la-heart-o"></i>
+                                                </a>
+                                                <a onclick="addToCompare(108)"
+                                                    data-toggle="tooltip" data-title="Add to compare"
+                                                    data-placement="left">
+                                                    <i class="las la-sync"></i>
+                                                </a>
+                                                <a onclick="showAddToCartModal(108)"
+                                                    data-toggle="tooltip" data-title="Add to cart"
+                                                    data-placement="left">
+                                                    <i class="las la-shopping-cart"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="p-md-3 p-2 text-left">
+                                            <div class="fs-15">
+                                                <span class="fw-700 text-primary">R$60.00</span>
+                                            </div>
+                                            <div class="rating rating-sm mt-1">
+                                                <i class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i>
+                                            </div>
+                                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                                <a class="d-block text-reset">Adidas Women&#039;s Sports Tights Tpo Bro</a>
+                                            </h3>
+                                            <div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+                                                Pontos:
+                                                <span class="fw-700 float-right">300</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-3">
+                                    <div
+                                        class="aiz-card-box h-100 border border-light rounded shadow-sm hov-shadow-md has-transition bg-white">
+                                        <div class="position-relative">
+                                            <a class="d-block">
+                                                <img class="img-fit lazyload mx-auto h-160px h-md-220px h-xl-270px h-xxl-250px"
+                                                    src="assets/img/placeholder.jpg"
+                                                    data-src="assets/img/IDkkErvDmdbDpOG0QfxZzMZqvd5apKS1yBS4CCFA.jpg"
+                                                    alt="Adidas Fitness Tights for Women"
+                                                    onerror="this.onerror=null;this.src='assets/img/placeholder.jpg';">
+                                            </a>
+                                            <div class="absolute-top-right aiz-p-hov-icon">
+                                                <a onclick="addToWishList(107)"
+                                                    data-toggle="tooltip" data-title="Add to wishlist"
+                                                    data-placement="left">
+                                                    <i class="la la-heart-o"></i>
+                                                </a>
+                                                <a onclick="addToCompare(107)"
+                                                    data-toggle="tooltip" data-title="Add to compare"
+                                                    data-placement="left">
+                                                    <i class="las la-sync"></i>
+                                                </a>
+                                                <a onclick="showAddToCartModal(107)"
+                                                    data-toggle="tooltip" data-title="Add to cart"
+                                                    data-placement="left">
+                                                    <i class="las la-shopping-cart"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="p-md-3 p-2 text-left">
+                                            <div class="fs-15">
+                                                <span class="fw-700 text-primary">R$55.00</span>
+                                            </div>
+                                            <div class="rating rating-sm mt-1">
+                                                <i class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i><i class='las la-star'></i><i
+                                                    class='las la-star'></i>
+                                            </div>
+                                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                                <a class="d-block text-reset">Adidas Fitness Tights for Women</a>
+                                            </h3>
+                                            <div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+                                                Pontos:
+                                                <span class="fw-700 float-right">275</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="aiz-pagination aiz-pagination-center mt-4">
+                                <nav>
+                                    <ul class="pagination">
+                                        <li class="page-item disabled" aria-disabled="true" aria-label="« Previous">
+                                            <span class="page-link" aria-hidden="true">&lsaquo;</span>
+                                        </li>
+                                        <li class="page-item active" aria-current="page"><span
+                                                class="page-link">1</span></li>
+                                        <li class="page-item"><a class="page-link">2</a>
+                                        </li>
+                                        <li class="page-item"><a class="page-link">3</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link"
+                                                rel="next" aria-label="Next »">&rsaquo;</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer id="sobre" class="nb-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="about">
+                            <img src="images/logo.png" class="img-responsive center-block" alt="">
+                            <p>Bootstrap Footer example snippets with CSS, Javascript and HTML. Code example of
+                                bootstrap-3 footer using HTML, Javascript, jQuery, and CSS. 5 Beautiful and Responsive
+                                Footer Templates. Pin a fixed-height footer to the bottom of the viewport in desktop
+                                browsers with this custom HTML and CSS.</p>
+
+                            <div class="social-media">
+                                <ul class="list-inline">
+                                    <li><a><i class="fa fa-facebook"></i></a></li>
+                                    <li><a><i class="fa fa-twitter"></i></a></li>
+                                    <li><a><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footer-info-single">
+                            <h2 class="title">Help Center</h2>
+                            <ul class="list-unstyled">
+                                <li><a><i class="fa fa-angle-double-right"></i> How to Pay</a></li>
+                                <li><a><i class="fa fa-angle-double-right"></i> FAQ's</a></li>
+                                <li><a><i class="fa fa-angle-double-right"></i> Sitemap</a></li>
+                                <li><a><i class="fa fa-angle-double-right"></i> Delivery Info</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footer-info-single">
+                            <h2 class="title">Customer information</h2>
+                            <ul class="list-unstyled">
+                                <li><a><i class="fa fa-angle-double-right"></i> About Us</a></li>
+                                <li><a><i class="fa fa-angle-double-right"></i> FAQ's</a></li>
+                                <li><a><i class="fa fa-angle-double-right"></i> Sell Your Items</a></li>
+                                <li><a><i class="fa fa-angle-double-right"></i> Contact Us</a></li>
+                                <li><a><i class="fa fa-angle-double-right"></i> RSS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footer-info-single">
+                            <h2 class="title">Security & privacy</h2>
+                            <ul class="list-unstyled">
+                                <li><a><i class="fa fa-angle-double-right"></i> Terms Of Use</a></li>
+                                <li><a><i class="fa fa-angle-double-right"></i> Privacy Policy</a></li>
+                                <li><a><i class="fa fa-angle-double-right"></i> Return / Refund Policy</a></li>
+                                <li><a><i class="fa fa-angle-double-right"></i> Store Locations</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footer-info-single">
+                            <h2 class="title">Payment</h2>
+                            <p>Sample HTML page with Twitter's Bootstrap. Code example of Easy Sticky Footer using HTML,
+                                Javascript, jQuery, and CSS. This bootstrap tutorial covers all the major elements of
+                                responsive</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p>Copyright © 2017. Your Company.</p>
+                        </div>
+                        <div class="col-sm-6"></div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+        <script>
+            let Navigate = function(hash){
+                let size = 25 //Relative size: <hgroup>
+
+                let top = $(hash).offset().top - size
+
+                $('html').animate({ scrollTop: top }, 300)
+            }
+
+            $(document).ready(function(){
+                let url = location.href
+
+                let hash = url.split('.html#')[1]
+
+                if(hash)
+                    Navigate(`#${hash}`)
+            });
+
+            $('nav li a[href]').on('click', function (event) {
+                let section = $(this).attr('href')
+                if(section.includes('html')) return true
+                
+                event.preventDefault()
+
+                Navigate(section)
+            });
+
+            $(".aiz-selectpicker").each(function (el) {
+                var $this = $(this);
+                if(!$this.parent().hasClass('bootstrap-select')){
+                    var selected = $this.data('selected');
+                    if( typeof selected !== 'undefined' ){
+                        $this.val(selected);
+                    }
+                    $this.selectpicker({
+                        size: 5,
+                        noneSelectedText: 'Nada selecionado',                     
+                        virtualScroll: false
+                    });
+                }
+            });
+        </script>
+    </div>
+</body>
+
+</html>
