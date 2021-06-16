@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+<head>
+  <meta charset="UTF-8">
+  <title>Carrinho-EasyWay</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+<header>
+  <h3 style="margin-left: 50px; font-size: 20px; color: rgb(38, 38, 134);"><a href="#">EASY-WAY </a></h3>
+  <h1 class="carrinho" >MEU CARRINHO</h1>
+ 
+</header>
+  <main>
+    
+    <div class="basket">
+      <div class="basket-module">
+        <label for="promo-code">Codigo Promocional</label>
+        <input id="promo-code" type="text" name="promo-code" maxlength="5" class="promo-code-field">
+        <button class="promo-code-cta">Aplicar</button>
+      </div>
+      <div class="basket-labels">
+        <ul>
+          <li class="item item-heading">Produto</li>
+          <li class="price">Preço</li>
+          <li class="quantity">Quantidade</li>
+          <li class="subtotal">SubTotal</li>
+        </ul>
+      </div>
+      <div class="basket-product">
+        <div class="item">
+          <div class="product-image">
+            <img src="calcajeans.jpg" alt="" class="product-frame">
+          </div>
+          <div class="product-details">
+            <h1><strong><span class="item-quantity">1</span> x Calça Jeans </strong> Modelo Feminino</h1>
+            <p><strong>Tamanho 18</strong></p>
+            <p>Codigo do produto - 232321939</p>
+          </div>
+        </div>
+        <div class="price">26.00</div>
+        <div class="quantity">
+          <input type="number" value="1" min="1" class="quantity-field">
+        </div>
+        <div class="subtotal">104.00</div>
+        <div class="remove">
+          <button>Remove</button>
+        </div>
+      </div>
+      <div class="basket-product">
+        <div class="item">
+          <div class="product-image">
+            <img src="vestido.jpg" alt="" class="product-frame">
+          </div>
+          <div class="product-details">
+            <h1><strong><span class="item-quantity">1</span> x Vestido azuk</strong> Estampado</h1>
+            <p><strong>Tamanho 10</strong></p>
+            <p>Codigo do Produto- 232321939</p>
+          </div>
+        </div>
+        <div class="price">26.00</div>
+        <div class="quantity">
+          <input type="number" value="1" min="1" class="quantity-field">
+        </div>
+        <div class="subtotal">26.00</div>
+        <div class="remove">
+          <button>Remove</button>
+        </div>
+      </div>
+    </div>
+    <aside>
+      <div class="summary">
+        <div class="summary-total-items" style ="color: black;"><span class="total-items"></span> Produtos no carrinho</div>
+        <div class="summary-subtotal">
+          <div class="subtotal-title" style="color: black">Subtotal</div>
+          <div class="subtotal-value final-value" id="basket-subtotal">130.00</div>
+          <div class="summary-promo hide">
+            <div class="promo-title">Promoção</div>
+            <div class="promo-value final-value" id="basket-promo"></div>
+          </div>
+        </div>
+        <div class="summary-delivery">
+          <select name="delivery-collection" class="summary-delivery-selection">
+              <option value="0" selected="selected">Selecione tipo de entrega</option>
+             <option value="convencional">Entrega Convencional</option>
+             <option value="expressa">Entrega Expressa</option>
+             <option value="agendada">Entrega Agendada</option>
+             
+          </select>
+        </div>
+        <div class="summary-total">
+          <div class="total-title">Total</div>
+          <div class="total-value final-value" id="basket-total">130.00</div>
+        </div>
+        <div class="summary-checkout">
+          <button class="checkout-cta">Finalizar Compra</button>
+          <button class="checkout-cta" style="margin-top:10px; background-color: rgb(202, 13, 13)"><a href="#" style="color: antiquewhite;">Continuar Comprando</a></button>
+        </div>
+      </div>
+    </aside>
+  </main>
+  
+</body>
+
+</html>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
