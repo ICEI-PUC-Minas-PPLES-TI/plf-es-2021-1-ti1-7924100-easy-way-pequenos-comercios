@@ -17,8 +17,8 @@ Roberto Felipe Dias Ferreira da Rocha<br>
 
 ## Instruções de utilização
 
-O usuário deverá entrar no link da plataforma e se cadastrar como vendedor ou cliente.<br>
+O usuário deverá entrar no link da plataforma e se cadastrar como vendedor ou cliente.<br><br>
 Caso seja cliente, ele deve escolher os produtos que deseja comprar e adicionar ao carrinho. Em seguida, adicionar a forma de pagamento e concluir sua compra.<br>
-Caso o cliente perceba algo que não lhe agrada, deverá entrar na página de suporte e enviar uma mensagem com sua sugestão de melhoria.<br>
-<br>
-Caso seja vendedor, deverá adicionar os produtos que deseja vender
+Caso o cliente perceba algo que não lhe agrada, deverá entrar na página de suporte e enviar uma mensagem com sua sugestão de melhoria.<br><br>
+Caso seja vendedor, deverá adicionar os produtos que deseja vender e adicionar sua conta para receber o pagamento.<br>
+Caso o vendedor perceba algo que não lhe agrada, deverá entrar na página de suporte e enviar uma mensagem com sua sugestão de melhoria.
