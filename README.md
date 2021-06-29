@@ -1,5 +1,5 @@
 # Easy-Way
-No  intuito  de  ajudar  os  pequenos  comérciose  seus  clientes,  criaremos  uma plataforma  digital  auto  intuitiva  para facilitar  o  usodos clientese  auxiliar os empreendedores na gestão dopróprio negócio. Dessa maneira eles terão ferramentas que ajudarão no gerenciamento da loja como por exemplo: acesso aos relatórios dos produtos mais vendidos e quais e os que estão presos em estoque.
+No  intuito  de  ajudar  os  pequenos  comércios e  seus  clientes,  criaremos  uma plataforma  digital  auto  intuitiva  para facilitar  o  uso dos clientes e  auxiliar os empreendedores na venda dos seus produtos através do meio digital. Dessa forma, atingiremos o problema causado pelo momento de pandemia quando não se pode utilizar as lojas físicas.
 
 ## Alunos integrantes da equipe
 Caio Reis de Abreu
