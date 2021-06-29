@@ -3,11 +3,11 @@ No  intuito  de  ajudar  os  pequenos  comércios e  seus  clientes,  criaremos 
 
 ## Alunos integrantes da equipe
 Caio Reis de Abreu<br>
-Francisley Domingos Magalhães
-Júlia Evelyn de Oliveira Silva
-Lara Cordeiro Nogueira
-Lucas Paixão Soares Ribeiro
-Matheus Brasil Aguiar
+Francisley Domingos Magalhães<br>
+Júlia Evelyn de Oliveira Silva<br>
+Lara Cordeiro Nogueira<br>
+Lucas Paixão Soares Ribeiro<br>
+Matheus Brasil Aguiar<br>
 
 ## Professores responsáveis
 
