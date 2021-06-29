@@ -11,10 +11,14 @@ Matheus Brasil Aguiar<br>
 
 ## Professores responsáveis
 
-Rommel Vieira Carneiro
-Will Ricardo dos Santos Machado
-Roberto Felipe Dias Ferreira da Rocha
+Rommel Vieira Carneiro<br>
+Will Ricardo dos Santos Machado<br>
+Roberto Felipe Dias Ferreira da Rocha<br>
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+O usuário deverá entrar no link da plataforma e se cadastrar como vendedor ou cliente.<br>
+Caso seja cliente, ele deve escolher os produtos que deseja comprar e adicionar ao carrinho. Em seguida, adicionar a forma de pagamento e concluir sua compra.<br>
+Caso o cliente perceba algo que não lhe agrada, deverá entrar na página de suporte e enviar uma mensagem com sua sugestão de melhoria.<br>
+<br>
+Caso seja vendedor, deverá adicionar os produtos que deseja vender
