@@ -2,7 +2,7 @@
 No  intuito  de  ajudar  os  pequenos  comércios e  seus  clientes,  criaremos  uma plataforma  digital  auto  intuitiva  para facilitar  o  uso dos clientes e  auxiliar os empreendedores na venda dos seus produtos através do meio digital. Dessa forma, atingiremos o problema causado pelo momento de pandemia quando não se pode utilizar as lojas físicas.
 
 ## Alunos integrantes da equipe
-Caio Reis de Abreu
+Caio Reis de Abreu\n
 Francisley Domingos Magalhães
 Júlia Evelyn de Oliveira Silva
 Lara Cordeiro Nogueira
