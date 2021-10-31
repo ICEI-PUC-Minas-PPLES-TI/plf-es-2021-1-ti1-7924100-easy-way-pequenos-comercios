@@ -1,0 +1,35 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: Easy-Way
+authors:
+  - family-names: Reis de Abreu
+    given-names: Caio
+  - family-names: Domingos Magalhães
+    given-names: Francisley 
+  - family-names: de Oliveira Silva
+    given-names: Júlia Evelyn
+  - family-names: Cordeiro Nogueira
+    given-names: Lara 
+  - family-names: Paixão Soares Ribeiro
+    given-names: Lucas
+  - family-names: Brasil Aguiar
+    given-names: Matheus 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Felipe Dias Ferreira da Rocha
+    given-names: Roberto
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Vieira Carneiro
+    given-names: Rommel
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Ricardo dos Santos Machado
+    given-names: Will
+keywords:
+  - Plataforma Digital
+  - Pequenos Comerciantes
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2021-1-ti1-7924100-easy-way-pequenos-comercios
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2021-06-20
